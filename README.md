@@ -14,7 +14,7 @@ parts:
 
   ros2-rolling/ros2-launch:
       source: 'https://github.com/StoglRobotics/ros2_rolling_extension.git'
-      source-branch: main
+      source-branch: master
       plugin: nil
       override-build: >-
         install -D -m 0755 launch
